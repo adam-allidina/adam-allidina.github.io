@@ -3,63 +3,64 @@
 	<head> 
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/2.1.3/mini-dark.min.css">
-		</head>
-        <body>
-<h2> Motivation</h2>
-<p>The benefits of blockchain based technology continue to make themselves apparent. However, there are relatively few options for entities who wish to implement  or utilize a blockchain based solution. Traditionally such a solution would necessarily entail the investment of time and funds in order to create and maintain a custom chain. The alternative is to resort to an existing platform such as Bitcoin or Ethereum. Unfortunately, such a choice comes with numerous problems for a business; chiefly the relative lack of control over the chosen blockchains’ features and their inability to influence the future development in accordance with their unique needs. </p>
+	</head>
+    <body>
+        <h2> Motivation</h2>
 
-<h2>Overview</h2>
-<p>Stratis is a blockchain development platform designed for the needs of real world businesses which wish to develop, test and deploy applications on the blockchain. Stratis blockchain applications can be developed in pure C# and are provided with a set of APIs by the Stratis platform and framework. The aim is to simplify the development process of a blockchain based application and allow for rapid ideation in the blockchain space. </p>
+            <p>The applications and benefits of blockchain based technology continue to make themselves apparent; however there are relatively few options for entities that wish to implement  or utilize a blockchain based application. Traditionally the creation of such an application would entail the investment of time and funds in order to create and maintain a custom chain to back it. The alternative is to resort to an existing platform such as Bitcoin or Ethereum. Unfortunately this choice comes with numerous problems for a private business. The relative lack of control over the chosen blockchains’ features and their inability to influence the future development in accordance with their unique needs chief among them. </p>
 
-<p>Stratis will develop a Bitcoin full node in C#; the Stratis Platform will then be built on top of this node while also providing a superset of features.</p>
+        <h2>Overview</h2>
 
-<p>Additionally, Stratis will allow for the creation of private “children” chains (or sidechains) which will allow for businesses to deploy their own custom blockchains without the inherent overheads usually associated with such an undertaking. </p>
+            <p>Stratis is a blockchain development platform designed for the needs of real world businesses which wish to develop, test and deploy applications on the blockchain. Stratis blockchain applications can be developed in pure C# and are provided with a set of APIs by the Stratis platform and framework. The aim is to simplify the development process of a blockchain based application and allow for rapid ideation in the blockchain space. </p>
 
-<p>Stratis believes that one of their key decisions, which will allow for more rapid blockchain application development and iteration, is their choice to develop a full node in C# (as opposed to C++). Highly skilled C++ engineers are in short supply in the corporate space. C# has the added benefit of being a higher level language (which comes with a host of benefits when it comes to real world development).</p>
+            <p>Stratis will develop a Bitcoin full node in C#; the Stratis Platform will then be built on top of this node while also providing a superset of features.</p>
 
-<h2>Stratis Private Chains</h2>
-<p>The primary goal of Stratis Platform is to allow for the creation of distinct, private blockchains which can be launched by organizations who are then able to uniquely tailor them to their specific applications; these Stratis Private Chains are accessed via lite clients and a set of APIs.</p>
+            <p>Additionally, Stratis will allow for the creation of private “child” chains (or sidechains) which will allow for businesses to deploy their own custom blockchains without the inherent overheads usually associated with such an undertaking. </p>
 
-<p>Since these private chains are sidechains of the parent Stratis chain, users are given a high degree of confidence in the underlying security of the newly created private chain. Note that this structure also allows for the straightforward transfer of tokens across all Stratis sidechains.</p>
+            <p>Stratis believes that one of their key decisions, which will allow for more rapid blockchain application development and iteration, is their choice to develop a full node in C# (as opposed to C++). Highly skilled C++ engineers are in short supply in the corporate space. C# has the added benefit of being a higher level language (which comes with a host of benefits when it comes to real world development).</p>
 
-<p>Stratis Private Chains give developers the flexibility to customize their sidechain for their specific needs. The following functionality can all be configured by a straightforward set of APIs provided by the Stratis (Blockchain as a Service) Platform:</p>
+    <h2>Stratis Private Chains</h2>
 
-<ul><li>    Block Size (correlates with max transaction volume)
-</li><li>    Block Time (transaction latency)
-</li><li>    Controlled Transactions (limited network request submission approval)
-</li><li>    An arbitrary rate of inflation
-</li><li>    Additional metadata space in each block
-</li></ul>
-<h2>Blockchain as a Service</h2>
-<p>Stratis Platform is attempting to develop a Blockchain as a Service (or BaaS).; this is conceptually similar to some of the most lucrative and popular business models which exist today:</p>
+        <p>The primary goal of Stratis Platform is to allow for the creation of distinct, private blockchains which can be launched by organizations who are then able to uniquely tailor them to their specific applications; these Stratis Private Chains are accessed via lite clients and a set of APIs.</p>
 
-<ul><li>    Software as a Service (Salesforce)
-</li><li>    Platform as a Service (Amazon AWS)
-</li><li>    Infrastructure as a Service (Microsoft Azure)
-</li></ul>
-<h2>Decentralized App Hosting</h2>
-<p>Stratis (the entity) aims to specialize in providing hosting and consultancy for decentralized applications built on the Ethereum blockchain. The goal is to allow clients to focus solely on created their decentralized application without expending time and resources on infrastructure.</p>
+        <p>Since these private chains are sidechains of the parent Stratis chain, users are given a high degree of confidence in the underlying security of the newly created private chain. Note that this structure also allows for the straightforward transfer of tokens across all Stratis sidechains.</p>
 
-<p>Additionally, Stratis aims to provide one-click provisioning of other major blockchain platforms aside from its own (ex. Bitcoin, Ethereum, BitShares). This will allow an organization to test out as many networks as they wish and customize their parent chain choice on an application specific basis. The goal is to reduce the overheads of blockchain development to near zero and to make Stratis the most convenient and cost effective solution available.</p>
+        <p>Stratis Private Chains give developers the flexibility to customize their sidechain for their specific needs. The following functionality can all be configured by a straightforward set of APIs provided by the Stratis (Blockchain as a Service) Platform:</p>
 
-<h2>One Click Deployment</h2>
-<p>Stratis Platform aims to make the deployment of a private blockchain similar to that of a cloud service. This means creating a one click process which allows for a broad range of key variables (block time, size, & metadata space) to be set. This process will be facilitated by bootstrapping an entire network off the back of the main Stratis chain, giving a ready made cryptocurrency ecosystem for developers to use out of the box.</p>
+            <ul><li>    Block Size (correlates with max transaction volume)
+            </li><li>    Block Time (transaction latency)
+            </li><li>    Controlled Transactions (limited network request submission approval)
+            </li><li>    An arbitrary rate of inflation
+            </li><li>    Additional metadata space in each block
+            </li></ul>
 
-<h2>Fiat Gateway Integration</h2>
-<p>Although blockchains allow for the transfer of value in the form of their native tokens, these have numerous problems from the perspective of a commercial enterprise (compliance and price fluctuation to name a few). </p>
+    <h2>Blockchain as a Service</h2>
 
-<p>Stratis is designed with the integration of fiat gateways in mind. It allows organizations to use the blockchain for the transfer of existing currencies that are not subject to the volatility common in the crypto space. This approach will also allow for businesses to maintain compliance in whatever way they see fit and simultaneously utilize the blockchain as a store of value. </p>
+        <p>Stratis Platform is attempting to develop a Blockchain as a Service (or BaaS).; this is conceptually similar to some of the most lucrative and popular business models which exist today:</p>
 
+            <ul><li>    Software as a Service (Salesforce)
+            </li><li>    Platform as a Service (Amazon AWS)
+            </li><li>    Infrastructure as a Service (Microsoft Azure)
+            </li></ul>
+        
+    <h2>Decentralized App Hosting</h2>
+    
+        <p>Stratis (the entity) aims to specialize in providing hosting and consultancy for decentralized applications built on the Ethereum blockchain. The goal is to allow clients to focus solely on created their decentralized application without expending time and resources on infrastructure.</p>
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        <p>Additionally, Stratis aims to provide one-click provisioning of other major blockchain platforms aside from its own (ex. Bitcoin, Ethereum, BitShares). This will allow an organization to test out as many networks as they wish and customize their parent chain choice on an application specific basis. The goal is to reduce the overheads of blockchain development to near zero and to make Stratis the most convenient and cost effective solution available.</p>
 
-  ga('create', 'UA-98625281-1', 'auto');
-    ga('send', 'pageview');
+    <h2>One Click Deployment</h2>
 
-</script>
+        <p>Stratis Platform aims to make the deployment of a private blockchain similar to that of a cloud service. This means creating a one click process which allows for a broad range of key variables (block time, size, & metadata space) to be set. This process will be facilitated by bootstrapping an entire network off the back of the main Stratis chain, giving a ready made cryptocurrency ecosystem for developers to use out of the box.</p>
+
+    <h2>Fiat Gateway Integration</h2>
+
+        <p>Although blockchains allow for the transfer of value in the form of their native tokens, these have numerous problems from the perspective of a commercial enterprise (compliance and price fluctuation to name a few). </p>
+
+        <p>Stratis is designed with the integration of fiat gateways in mind. It allows organizations to use the blockchain for the transfer of existing currencies that are not subject to the volatility common in the crypto space. This approach will also allow for businesses to maintain compliance in whatever way they see fit and simultaneously utilize the blockchain as a store of value. </p> 
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-98625281-1', 'auto');ga('send', 'pageview');
+    </script>
 	</body>
 </html>
